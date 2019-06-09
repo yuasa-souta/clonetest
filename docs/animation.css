@@ -1,0 +1,63 @@
+@keyframes rollOverlow {
+    0% {
+        transform: rotate(0deg);        
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rollOver {
+    0% {
+        transform: rotate(0deg); 
+        margin-left: 0;       
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-left: 500px;
+    }
+}
+
+@keyframes rollOverfast {
+    0% {
+        transform: rotate(0deg);        
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes turn{
+    50%{
+        opacity: 0;
+        width: 200px;
+        transform: rotateZ(0deg);
+    }
+    100%{
+        opacity: 1;
+        width: 400px;
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes turn2{
+    0% {
+        transform: rotate(0deg); 
+        margin-left: 0;       
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-left: 500px;
+    }
+}
+
+#propeller{
+    animation:rollOverlow 5s linear,rollOver 1s 5s linear,rollOverfast 300ms 6s linear infinite;
+}
+#propeller2{
+    animation:turn 6s linear,turn2 1s 6s linear infinite alternate;
+}
+article{
+    border:1px solid black;
+    height:450px;
+    width:auto;
+}
+
+
