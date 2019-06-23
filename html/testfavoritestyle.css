@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(253, 146, 146);
+}
+h1{
+    color: Red;
+}
+#akagami{
+    border: 2px solid red;
+    
+}
+nav ul{
+    width: 750px;
+    text-align: center;
+    background-color: rgb(225, 255, 225);
+    border-style: solid;
+    border-color: rgb(135, 85, 201);
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;  
+    margin-inline-start: 20px;
+} 
+
+
+
+
+
+
+
+
+
